@@ -69,3 +69,36 @@ The obvious follow-up work: getting candidate recall up without wrecking precisi
 
 Live demo: temporarily unavailable due to dataset hosting limitations.
 Local demo: run the V4.2 scientific priority engine with the included pipeline.
+
+## Installation
+
+### Requirements
+
+- Python 3.10+
+- pip
+
+### Setup
+
+Clone the repository:
+
+bash
+git clone https://github.com/carbonxd482-cmyk/Hercules.git
+cd Hercules
+
+Create and activate a virtual environment:
+
+Windows:
+
+python -m venv .venv
+.venv\Scripts\activate
+
+macOS / Linux:
+
+python3 -m venv .venv
+source .venv/bin/activate
+
+Install dependencies:
+
+pip install -r requirements.txt
+Run HERCULES
+streamlit run app.py
