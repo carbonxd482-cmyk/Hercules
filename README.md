@@ -66,3 +66,6 @@ The obvious follow-up work: getting candidate recall up without wrecking precisi
 ---
 
 *Data: NASA Exoplanet Archive, Kepler Objects of Interest catalog.*
+
+Live demo: temporarily unavailable due to dataset hosting limitations.
+Local demo: run the V4.2 scientific priority engine with the included pipeline.
